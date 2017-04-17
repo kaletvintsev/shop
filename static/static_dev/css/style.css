@@ -1,3 +1,63 @@
+.wrapper-content{
+    background-color: #f4f7f6;
+}
+
 .container .row{
     margin-top: 50px;
 }
+
+
+/*Навбар*/
+
+.navbar-default{
+    background-color: #f4f7f6;
+}
+
+/*Кнопки*/
+
+.btn-black {
+    background-color:#fcfcfc;
+    color:#bdc1c0;
+    border-color:#bdc1c0;
+}
+.btn-black:hover, .btn-black:focus {
+    background-color: #BDBDBC;
+    color: white;
+}
+.btn-black:active {
+    background-color: #BDBDBC;
+    color: white;
+}
+
+
+/*карточки товаров*/
+
+.description{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.product-item {
+    background-color: #fcfcfc ;
+    height: 600px;
+    border: 4px solid #e6eaea ;
+    border-radius: 5px;
+
+}
+
+.span4{
+    width: 95%;
+    margin-top: 5px;
+    border: 4px solid #e6eaea ;
+    border-radius: 5px;
+}
+
+
+.product-description{
+     height: 120px;
+}
+
+.priece{
+    margin-left: 27%;
+}
+

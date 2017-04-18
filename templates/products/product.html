@@ -12,35 +12,35 @@
                     </div>
                 {% endfor %}
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 card">
                 <h1>
                     {{ product.name }}
                 </h1>
-                <div class="">
-                    <h4>
+                <div>
+                    <h3 class="hero-unit">
                         Цена: {{ product.price }} руб.
-                    </h4>
+                    </h3>
                 </div>
                 <div>
                       <!-- Nav tabs -->
                       <ul class="nav nav-tabs" role="tablist">
                         <li role="presentation" class="active">
-                            <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
+                            <a href="#description" aria-controls="home" role="tab" data-toggle="tab" class="size">
                                 Описание
                             </a>
                         </li>
                         <li role="presentation">
-                            <a href="#delivery" aria-controls="profile" role="tab" data-toggle="tab">
+                            <a href="#delivery" aria-controls="profile" role="tab" data-toggle="tab" class="size">
                                 Размеры
                             </a>
                         </li>
                       </ul>
 
                       <div class="tab-content product-description-tabs">
-                        <div role="tabpanel" class="tab-pane active" id="description">
+                        <div role="tabpanel" class="tab-pane active inform" id="description">
                             <h3>{{ product.description|safe }}</h3>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="delivery">
+                        <div role="tabpanel" class="tab-pane inform" id="delivery">
                             <h3>S<br />M<br />XS</h3>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="messages">...</div>

@@ -20,6 +20,7 @@ class Product(models.Model):
     short_description = models.TextField(blank=True, null=True, default=None)
     description = models.TextField(blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
+    is_on_main = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
@@ -29,6 +30,10 @@ class Product(models.Model):
     class Meta:
         verbose_name = 'Товар'
         verbose_name_plural = 'Товары'
+
+    # @classmethod
+    # def last_four(cls):
+    #     return cls.objects.all()[:4]
 
 
 class ProductImage(models.Model):

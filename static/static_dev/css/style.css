@@ -6,6 +6,10 @@
     margin-top: 50px;
 }
 
+body{
+    /*font-family: 'Cuprum', sans-serif;*/
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 /*Навбар*/
 
@@ -39,8 +43,8 @@
 
 .product-item {
     background-color: #fcfcfc ;
-    height: 600px;
-    border: 4px solid #e6eaea ;
+    height: 625px;
+    border: 2px solid #e6eaea ;
     border-radius: 5px;
 
 }
@@ -48,7 +52,7 @@
 .span4{
     width: 95%;
     margin-top: 5px;
-    border: 4px solid #e6eaea ;
+    border: 3px solid #e6eaea ;
     border-radius: 5px;
 }
 
@@ -58,6 +62,33 @@
 }
 
 .priece{
-    margin-left: 27%;
+    margin-left: 22%;
+    font-size: 20pt;
 }
 
+
+/*Страница продукта*/
+.card{
+    background-color: white;
+    height: 100%;
+    border: 3px solid #e6eaea ;
+    border-radius: 5px;
+
+}
+
+.size{
+    color: black;
+}
+
+.hero-unit{
+    border: 3px solid #e6eaea ;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inform{
+    padding-left: 20px;
+}

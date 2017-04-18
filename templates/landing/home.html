@@ -15,7 +15,49 @@
                         Новые поступления
                     </h1>
                 </div>
-                {% for product_image in products_images %}
+                 {% for product_image in products_images_on_main %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+     <div class="section section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Курткти
+                    </h1>
+                </div>
+                {% for product_image in products_images_kurtki %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Дубленки
+                    </h1>
+                </div>
+                {% for product_image in products_images_dublenki %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Плащи
+                    </h1>
+                </div>
+                {% for product_image in products_images_plashi %}
                     {% include 'landing/product_item.html' %}
                 {% endfor %}
             </div>

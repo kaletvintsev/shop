@@ -8,3 +8,4 @@ def product(request, product_id):
 #
 # # def last_four(request):
 #     return render(request, 'landing/product_item.html', {'Product': Product})
+

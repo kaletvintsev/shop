@@ -12,3 +12,4 @@ def home(request):
     products_images_dublenki = products_images.filter(product__category__id=2)
     products_images_plashi = products_images.filter(product__category__id=3)
     return render(request, 'landing/home.html', locals())
+

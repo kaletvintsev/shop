@@ -1,5 +1,6 @@
 .wrapper-content{
     background-color: #f4f7f6;
+    padding-bottom: 20px;
 }
 
 .container .row{
@@ -16,6 +17,8 @@ body{
 .navbar-default{
     background-color: #f4f7f6;
 }
+
+
 
 /*Кнопки*/
 
@@ -46,6 +49,7 @@ body{
     height: 625px;
     border: 2px solid #e6eaea ;
     border-radius: 5px;
+    position: relative;
 
 }
 
@@ -66,6 +70,21 @@ body{
     font-size: 20pt;
 }
 
+
+.discount{
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    margin-top: -175px;
+    font-size: 150%;
+
+}
+.inf-btn{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /*Страница продукта*/
 .card{
@@ -92,3 +111,24 @@ body{
 .inform{
     padding-left: 20px;
 }
+
+
+.photos{
+    border: 3px solid #e6eaea ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*footer*/
+
+.footer{
+    border-top: solid;
+    border-top-color: #e6eaea;
+    border-top-width: 3px;
+    padding-top: 15px;
+}
+.foot{
+    padding-top: 3px;
+
+}
+
+
